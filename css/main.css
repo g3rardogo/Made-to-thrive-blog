@@ -1,0 +1,18 @@
+:root {
+    --light-pink: #d7ccc6;
+    --dark-blue: #02323f;
+    --grey: #585856;
+    --light-white: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Courgette', cursive;*/
+}
