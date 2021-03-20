@@ -11,8 +11,79 @@
     margin: 0;
 }
 
+.home-body {
+    position: fixed;
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Alegreya Sans', sans-serif;
     /*font-family: 'Courgette', cursive;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: auto;
+}
+
+.nav-main {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+}
+
+.logo__container {
+    width: 50%;
+}
+
+.nav-options-main {
+    width: 50%;
+    display: grid;
+}
+
+.nav-options__container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+}
+
+.logo__container h1 {
+    font-size: 4.5rem;
+    letter-spacing: 10px;
+}
+
+.nav-options__container h3 {
+    font-size: 2.5rem;
+    color: var(--grey);
+}
+
+.home-main__container {
+    height: 100vh;
+    background-image: url('../assets/img/cover-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-main__text-container {
+    padding: 200px 0 0 100px;
+    width: 30%;
+}
+
+.home-main__text-container h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1.2rem;
+    color: var(--grey);
+}
+
+.home-main__text-container p {
+    font-size: 2rem;
+    line-height: 30px;
 }
